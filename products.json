@@ -1,141 +1,109 @@
-
-
-
-  [
+[
   {
     "id": 1,
     "name": "Aloe Vera",
     "price": "$2",
-    "image": "aloeVera.jpg",
+    "image": "images/aloeVera.jpg",
     "category": "plant"
   },
   {
     "id": 2,
     "name": "Areca Palm",
-    "price": "$15","image": "arecapalm.jpg",
+    "price": "$15","image": "images/arecapalm.jpg",
      "category": "plant"
   },
   {
     "id": 3,
     "name": "Bamboo Plant",
-    "price": "$95","image": "BambooPlant.jpg",
+    "price": "$95","image": "images/BambooPlant.jpg",
      "category": "plant"
   },
   {
     "id": 4,
     "name": "Boston Fern",
-    "price": "$20","image": "Bostonfern.jpg",
+    "price": "$20","image": "images/Bostonfern.jpg",
      "category": "plant"
   },
   {
     "id": 5,
     "name": "Cactus",
-    "price": "$15","image": "cactus.jpg",
+    "price": "$15","image": "images/cactus.jpg",
      "category": "plant"
   },
   {
     "id": 6,
     "name": "Dracaena",
-    "price": "$40","image": "Dracaena.jpg",
+    "price": "$40","image": "images/Dracaena.jpg",
      "category": "plant"
   },
   {
     "id": 7,
     "name": "Jade Plant",
-    "price": "$10","image": "jadeplant.jpg",
+    "price": "$10","image": "images/jadeplant.jpg",
      "category": "plant"
   },
   {
     "id": 8,
     "name": "Money Plant",
-    "price": "$15","image": "Moneyplant.jpg",
+    "price": "$15","image": "images/Moneyplant.jpg",
      "category": "plant"
   },
   {
     "id": 9,
     "name": "Parlor Palm",
-    "price": "$30","image": "parlorpalm.jpg",
+    "price": "$30","image": "images/parlorpalm.jpg",
      "category": "plant"
   },
   {
     "id": 10,
     "name": "Peace Lily",
-    "price": "$28","image": "PeaceLily.jpg",
+    "price": "$28","image": "images/PeaceLily.jpg",
      "category": "plant"
   },
-
 
   {
     "id": 11,
     "name": "Aloe Vera",
     "price": "$10",
-    "image": "AloeVera.jpg",
+    "image": "images/AloeVera.jpg",
     "category": "plant"
   },
   {
     "id": 12,
     "name": "Apple",
     "price": "$5",
-    "image": "apple.png",
+    "image": "images/apple.png",
     "category": "fruit"
   },
   {
     "id": 13,
     "name": "Tomato",
     "price": "$3",
-    "image": "tomato.jpg",
+    "image": "images/tomato.jpg",
     "category": "vegetable"
   },
 
+  { "id": 15, "name": "Orange", "price": "$4", "image": "images/orange.jpg", "category": "fruit" },
+  { "id": 16, "name": "Mango", "price": "$6", "image": "images/mango.jpg", "category": "fruit" },
+  { "id": 17, "name": "Pineapple", "price": "$7", "image": "images/pineapple.jpg", "category": "fruit" },
+  { "id": 18, "name": "Grapes", "price": "$5", "image": "images/grapes.jpg", "category": "fruit" },
+  { "id": 19, "name": "Watermelon", "price": "$10", "image": "images/watermelon.jpg", "category": "fruit" },
+  { "id": 20, "name": "Papaya", "price": "$6", "image": "images/papaya.jpg", "category": "fruit" },
+  { "id": 21, "name": "Guava", "price": "$4", "image": "images/guava.jpg", "category": "fruit" },
+  { "id": 22, "name": "Kiwi", "price": "$9", "image": "images/Kiwi.png", "category": "fruit" },
+  { "id": 23, "name": "Pomegranate", "price": "$7", "image": "images/pomegranate.jpg", "category": "fruit" },
+  { "id": 24, "name": "Cherry", "price": "$12", "image": "images/cherry.jpg", "category": "fruit" },
+  { "id": 25, "name": "Pear", "price": "$5", "image": "images/pear.jpg", "category": "fruit" },
+  { "id": 26, "name": "Plum", "price": "$6", "image": "images/plum.jpg", "category": "fruit" },
+  { "id": 27, "name": "Litchi", "price": "$8", "image": "images/litchi.png", "category": "fruit" },
 
-
-
-
-
-  { "id": 15, "name": "Orange", "price": "$4", "image": "orange.jpg", "category": "fruit" },
-
-  { "id": 16, "name": "Mango", "price": "$6", "image": "mango.jpg", "category": "fruit" },
-
-  { "id": 17, "name": "Pineapple", "price": "$7", "image": "pineapple.jpg", "category": "fruit" },
-
-  { "id": 18, "name": "Grapes", "price": "$5", "image": "grapes.jpg", "category": "fruit" },
-
-  { "id": 19, "name": "Watermelon", "price": "$10", "image": "watermelon.jpg", "category": "fruit" },
-
-  { "id": 20, "name": "Papaya", "price": "$6", "image": "papaya.jpg", "category": "fruit" },
-
-  { "id": 21, "name": "Guava", "price": "$4", "image": "guava.jpg", "category": "fruit" },
-
-  { "id": 22, "name": "Kiwi", "price": "$9", "image": "Kiwi.png", "category": "fruit" },
-
-  { "id": 23, "name": "Pomegranate", "price": "$7", "image": "pomegranate.jpg", "category": "fruit" },
-
-  { "id": 24, "name": "Cherry", "price": "$12", "image": "cherry.jpg", "category": "fruit" },
-
-  { "id": 25, "name": "Pear", "price": "$5", "image": "pear.jpg", "category": "fruit" },
-
-  { "id": 26, "name": "Plum", "price": "$6", "image": "plum.jpg", "category": "fruit" },
-
-  { "id": 27, "name": "Litchi", "price": "$8", "image": "litchi.png", "category": "fruit" },
-
-
-
-
-
-
-
-
-  { "id": 102, "name": "Potato", "price": "$2", "image": "potato.jpg", "category": "vegetable" },
-  { "id": 103, "name": "Onion", "price": "$2", "image": "onion.jpg", "category": "vegetable" },
-  { "id": 104, "name": "Carrot", "price": "$4", "image": "carrot.jpg", "category": "vegetable" },
-  { "id": 105, "name": "Cabbage", "price": "$3", "image": "cabbage.jpg", "category": "vegetable" },
-
-  { "id": 107, "name": "Spinach", "price": "$3", "image": "spinach.jpg", "category": "vegetable" },
-  { "id": 108, "name": "Brinjal", "price": "$4", "image": "brinjal.jpg", "category": "vegetable" },
-  { "id": 109, "name": "Capsicum", "price": "$6", "image": "capsicum.jpg", "category": "vegetable" },
-  { "id": 110, "name": "Broccoli", "price": "$7", "image": "broccoli.jpg", "category": "vegetable" },
-  { "id": 111, "name": "Mushroom", "price": "$8", "image": "mushroom.jpg", "category": "vegetable" }
-
-
+  { "id": 102, "name": "Potato", "price": "$2", "image": "images/potato.jpg", "category": "vegetable" },
+  { "id": 103, "name": "Onion", "price": "$2", "image": "images/onion.jpg", "category": "vegetable" },
+  { "id": 104, "name": "Carrot", "price": "$4", "image": "images/carrot.jpg", "category": "vegetable" },
+  { "id": 105, "name": "Cabbage", "price": "$3", "image": "images/cabbage.jpg", "category": "vegetable" },
+  { "id": 107, "name": "Spinach", "price": "$3", "image": "images/spinach.jpg", "category": "vegetable" },
+  { "id": 108, "name": "Brinjal", "price": "$4", "image": "images/brinjal.jpg", "category": "vegetable" },
+  { "id": 109, "name": "Capsicum", "price": "$6", "image": "images/capsicum.jpg", "category": "vegetable" },
+  { "id": 110, "name": "Broccoli", "price": "$7", "image": "images/broccoli.jpg", "category": "vegetable" },
+  { "id": 111, "name": "Mushroom", "price": "$8", "image": "images/mushroom.jpg", "category": "vegetable" }
 ]
-
