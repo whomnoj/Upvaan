@@ -9,56 +9,65 @@
   {
     "id": 2,
     "name": "Areca Palm",
-    "price": "$15","image": "images/arecapalm.jpg",
-     "category": "plant"
+    "price": "$15",
+    "image": "images/arecapalm.jpg",
+    "category": "plant"
   },
   {
     "id": 3,
     "name": "Bamboo Plant",
-    "price": "$95","image": "images/BambooPlant.jpg",
-     "category": "plant"
+    "price": "$95",
+    "image": "images/BambooPlant.jpg",
+    "category": "plant"
   },
   {
     "id": 4,
     "name": "Boston Fern",
-    "price": "$20","image": "images/Bostonfern.jpg",
-     "category": "plant"
+    "price": "$20",
+    "image": "images/Bostonfern.jpg",
+    "category": "plant"
   },
   {
     "id": 5,
     "name": "Cactus",
-    "price": "$15","image": "images/cactus.jpg",
-     "category": "plant"
+    "price": "$15",
+    "image": "images/cactus.jpg",
+    "category": "plant"
   },
   {
     "id": 6,
     "name": "Dracaena",
-    "price": "$40","image": "images/Dracaena.jpg",
-     "category": "plant"
+    "price": "$40",
+    "image": "images/Dracaena.jpg",
+    "category": "plant"
   },
   {
     "id": 7,
     "name": "Jade Plant",
-    "price": "$10","image": "images/jadeplant.jpg",
-     "category": "plant"
+    "price": "$10",
+    "image": "images/jadeplant.jpg",
+    "category": "plant"
   },
   {
     "id": 8,
     "name": "Money Plant",
-    "price": "$15","image": "images/Moneyplant.jpg",
-     "category": "plant"
+    "price": "$15",
+    "image": "images/Moneyplant.jpg",
+    "category": "plant"
   },
   {
     "id": 9,
     "name": "Parlor Palm",
-    "price": "$30","image": "images/parlorpalm.jpg",
-     "category": "plant"
+    "price": "$30",
+    "image": "images/parlorpalm.jpg",
+    "category": "plant"
   },
   {
     "id": 10,
     "name": "Peace Lily",
-    "price": "$28","image": "images/PeaceLily.jpg",
-     "category": "plant"
+    "price": "$28",
+    "image": "images/PeaceLily.jpg",
+    "category": "plant"
   },
 
   {
