@@ -62,13 +62,6 @@
   },
 
   {
-    "id": 11,
-    "name": "Aloe Vera",
-    "price": "$10",
-    "image": "images/AloeVera.jpg",
-    "category": "plant"
-  },
-  {
     "id": 12,
     "name": "Apple",
     "price": "$5",
