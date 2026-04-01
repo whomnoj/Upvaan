@@ -31,7 +31,7 @@
     "id": 5,
     "name": "Cactus",
     "price": "$15",
-    "image": "images/cactus.jpg",
+    "image": "images/Cactus.jpg",
     "category": "plant"
   },
   {
@@ -87,16 +87,16 @@
 
   { "id": 15, "name": "Orange", "price": "$4", "image": "images/orange.jpg", "category": "fruit" },
   { "id": 16, "name": "Mango", "price": "$6", "image": "images/mango.jpg", "category": "fruit" },
-  { "id": 17, "name": "Pineapple", "price": "$7", "image": "images/pineapple.jpg", "category": "fruit" },
+  { "id": 17, "name": "Pineapple", "price": "$7", "image": "images/Pineapple.jpg", "category": "fruit" },
   { "id": 18, "name": "Grapes", "price": "$5", "image": "images/grapes.jpg", "category": "fruit" },
-  { "id": 19, "name": "Watermelon", "price": "$10", "image": "images/watermelon.jpg", "category": "fruit" },
+  { "id": 19, "name": "Watermelon", "price": "$10", "image": "images/Watermelon.jpg", "category": "fruit" },
   { "id": 20, "name": "Papaya", "price": "$6", "image": "images/papaya.jpg", "category": "fruit" },
   { "id": 21, "name": "Guava", "price": "$4", "image": "images/guava.jpg", "category": "fruit" },
   { "id": 22, "name": "Kiwi", "price": "$9", "image": "images/Kiwi.png", "category": "fruit" },
   { "id": 23, "name": "Pomegranate", "price": "$7", "image": "images/pomegranate.jpg", "category": "fruit" },
   { "id": 24, "name": "Cherry", "price": "$12", "image": "images/cherry.jpg", "category": "fruit" },
   { "id": 25, "name": "Pear", "price": "$5", "image": "images/pear.jpg", "category": "fruit" },
-  { "id": 26, "name": "Plum", "price": "$6", "image": "images/plum.jpg", "category": "fruit" },
+  { "id": 26, "name": "Plum", "price": "$6", "image": "images/Plum.jpg", "category": "fruit" },
   { "id": 27, "name": "Litchi", "price": "$8", "image": "images/litchi.png", "category": "fruit" },
 
   { "id": 102, "name": "Potato", "price": "$2", "image": "images/potato.jpg", "category": "vegetable" },
