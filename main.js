@@ -1,4 +1,4 @@
-// Swiper init
+
 var swiper = new Swiper(".mySwiper", {
     loop: true,
     navigation: {
