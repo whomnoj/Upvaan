@@ -11,8 +11,8 @@ var swiper = new Swiper(".mySwiper", {
 const cartIcon = document.querySelector('.cart-icon');
 const cardTab = document.querySelector('.cart-tab');
 const closeBtn = document.querySelector('.close-btn');
-const cartList = document.querySelector('.cart-list');   // product section
-const cardList = document.querySelector('.card-list');   // cart section
+const cartList = document.querySelector('.cart-list');  
+const cardList = document.querySelector('.card-list');  
 const cartTotal = document.querySelector('.cart-total');
 const cartValue = document.querySelector('.cart-value');
 const hamburger = document.querySelector('.hamburger');
@@ -47,10 +47,10 @@ const updateTotals = () => {
     cartValue.textContent = totalQuantity;
 };
 
-// ✅ SHOW PRODUCTS (FIXED)
+
 const showCards = (products) => {
 
-    cartList.innerHTML = ""; // ❌ पहले clear नहीं कर रहे थे
+    cartList.innerHTML = "";
 
     products.forEach(product => {
 
@@ -66,7 +66,7 @@ const showCards = (products) => {
             <a href="#" class="btn cart-btn">Add to cart</a>
         `;
 
-        cartList.appendChild(orderCart); // ✅ सही जगह
+        cartList.appendChild(orderCart); 
 
         const cardBtn = orderCart.querySelector('.cart-btn');
         cardBtn.addEventListener('click', (e) => {
@@ -78,29 +78,7 @@ const showCards = (products) => {
 
 
 
-// 🔥 Search typing
-// searchInput.addEventListener('input', applyFilters);
-// ✅ FILTER BUTTON (FIXED - पहले गलत जगह लगा रखा था)
-// filterButtons.forEach(btn => {
-//     btn.addEventListener('click', () => {
 
-//         const category = btn.getAttribute('data-category');
-
-//         let filteredProducts;
-
-//         if (category === 'all') {
-//             filteredProducts = productList;
-//         } else {
-//             filteredProducts = productList.filter(product => product.category === category);
-//         }
-
-//         showCards(filteredProducts); // ✅ direct call
-
-//         // active button UI
-//         filterButtons.forEach(b => b.classList.remove('active'));
-//         btn.classList.add('active');
-//     });
-// });
 
 
 const searchInput = document.getElementById('searchInput');
@@ -109,7 +87,7 @@ const searchInput = document.getElementById('searchInput');
 
 let currentCategory = "all";
 
-// 🔥 Apply filter + search together
+
 const applyFilters = () => {
     let filtered = productList;
 
@@ -126,7 +104,7 @@ const applyFilters = () => {
     cartList.innerHTML = "";
 
     // Show products
-    showCards(filtered)  // ✅ correct
+    showCards(filtered) 
 };
 
 // 🔥 Button click
@@ -187,7 +165,7 @@ const addToCart = (product) => {
         </div>
     `;
 
-    cardList.appendChild(cardItem); // ✅ cart me add hoga (pehle galat jagah tha)
+    cardList.appendChild(cardItem); 
 
     const plusBtn = cardItem.querySelector('.plus');
     const minusBtn = cardItem.querySelector('.minus');
@@ -227,7 +205,7 @@ const initApp = () => {
         .then(response => response.json())
         .then(data => {
             productList = data;
-            showCards(productList); // ✅ ALL SHOW
+            showCards(productList); 
         })
         .catch(err => console.error("Error loading products:", err));
 };
